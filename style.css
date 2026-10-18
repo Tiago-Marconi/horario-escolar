@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9edf2;
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+}
+
+.pagina {
+    max-width: 1100px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+header img {
+    width: 300px;
+    height: auto;
+}
+
+h1 {
+    color: #243b53;
+    font-size: 25px;
+}
+
+h2 {
+    color: #486581;
+}
+
+header p {
+    color: #555555;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+    table-layout: fixed;
+}
+
+th, td {
+    border: 2px solid #65758b;
+    padding: 12px 5px;
+    text-align: center;
+    vertical-align: middle;
+    height: 35px;
+    overflow-wrap: anywhere;
+}
+
+th {
+    background-color: #d8e0e9;
+    color: #243b53;
+}
+
+.hora {
+    width: 75px;
+    background-color: #c3cedb;
+    color: #263747;
+    font-size: 12px;
+}
+
+.port {
+    background-color: #ecb689;
+    color: #c96101;
+}
+
+.mat {
+    background-color: #60a3e0;
+    color: #03508f;
+}
+
+.qui {
+    background-color: #6bf380;
+    color: #016325;
+}
+
+.ef {
+    background-color: #f3f197;
+    color: #af9503;
+}
+
+.ainf {
+    background-color: #df9b9b;
+    color: #ff1a1a;
+}
+
+
+.titulo-legenda {
+    margin-top: 30px;
+}
+
+.legenda {
+    list-style-type: square;
+    display: inline-block;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.legenda li {
+    padding: 10px 15px;
+    margin: 7px 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.rodape {
+    margin-top: 25px;
+    color: #65758b;
+    font-size: 14px;
+}
+
+@media (max-width: 700px) {
+    body {
+        padding: 5px;
+    }
+
+    .pagina {
+        padding: 5px;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    th, td {
+        padding: 5px 2px;
+        font-size: 11px;
+    }
+
+    .hora {
+        width: 55px;
+        font-size: 10px;
+    }
+}
